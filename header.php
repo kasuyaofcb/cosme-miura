@@ -61,31 +61,31 @@
           </ul>
         </nav>
         <!-- ハンバーガーメニュー -->
-        <nav class="bl_hamburger_nav">
-          <ul class="bl_hamburger_menu">
-            <li class="bl_hamburger_item">
-              <a class="bl_hamburger_link" href="#">TOP</a>
+        <nav class="header__hamburgerNav">
+          <ul class="header__hamburgerMenu">
+            <li class="header__hamburgerItem">
+              <a class="header__hamburgerLink" href="#">TOP</a>
             </li>
-            <li class="bl_hamburger_item">
+            <li class="header__hamburgerItem">
               <a
                 href="https://line.me/ja/"
-                class="bl_hamburger_link"
+                class="header__hamburgerLink"
                 target="_blank"
                 >公式LINE</a
               >
             </li>
-            <li class="bl_hamburger_item">
-              <a class="bl_hamburger_link" href="#">会社概要</a>
+            <li class="header__hamburgerItem">
+              <a class="header__hamburgerLink" href="#">会社概要</a>
             </li>
           </ul>
         </nav>
 
-        <div class="bl_hamburger_box">
-          <span class="bl_hamburger_line"></span>
-          <span class="bl_hamburger_line"></span>
-          <span class="bl_hamburger_line"></span>
+        <div class="header__hamburgerBox">
+          <span class="header__hamburgerLine"></span>
+          <span class="header__hamburgerLine"></span>
+          <span class="header__hamburgerLine"></span>
         </div>
-        <!-- /.bl_hamburger_box -->
+        <!-- /.header__hamburger_box -->
       </div>
       <!-- /.header__inner -->
     </header>
