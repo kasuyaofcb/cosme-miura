@@ -38,7 +38,7 @@
       </section>
 
       <section class="worries">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <h2 class="level2-heading">
             こんな<span class="common__text--fontSize-big">お悩み</span>は<span
               class="common__text--fontSize-big"
@@ -251,11 +251,11 @@
           </div>
           <!-- /.worries__wrap -->
         </div>
-        <!-- /.common__inner -->
+        <!-- /.l-commonInner -->
       </section>
 
       <section class="select">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <h2 class="level2-heading">
             ○○が<span class="common__text--fontSize-big">選ばれる</span>理由
           </h2>
@@ -321,11 +321,11 @@
           </div>
           <!-- /.select__media -->
         </div>
-        <!-- /.common__inner -->
+        <!-- /.l-commonInner -->
       </section>
 
       <section class="feature">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <h2 class="level2-heading">
             ○○の<span class="common__text--fontSize-big">特徴</span>
           </h2>
@@ -392,11 +392,11 @@
           </div>
           <!-- /.feature__wrap -->
         </div>
-        <!-- /.common__inner -->
+        <!-- /.l-commonInner -->
       </section>
 
       <section class="application">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <div class="application__media">
             <div class="application__thumb">
               <img
@@ -441,10 +441,10 @@
           </div>
           <!-- /.application__media -->
         </div>
-        <!--  /.common__inner -->
+        <!--  /.l-commonInner -->
       </section>
       <section class="voice">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <div class="voice__media">
             <div class="voice__thumb">
               <img
@@ -497,11 +497,11 @@
           </div>
           <!-- /.voice__media -->
         </div>
-        <!-- /.common__inner -->
+        <!-- /.l-commonInner -->
       </section>
 
       <section id="inquiry" class="inquiry">
-        <div class="common__inner">
+        <div class="l-commonInner">
           <div class="inquiry__wrap">
             <div class="inquiry__title">
               <h2 class="inquiry__heading level2-heading">お問い合わせ</h2>
@@ -580,7 +580,7 @@
           </div>
           <!-- /.inquiry__wrap -->
         </div>
-        <!-- /.common__inner -->
+        <!-- /.l-commonInner -->
       </section>
     </main>
 <?php get_footer();?>
