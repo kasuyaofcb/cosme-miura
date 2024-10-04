@@ -1,7 +1,7 @@
 <?php get_header();?>
 <main id="main">
-      <section id="first-view" class="first-view">
-        <div class="first-view__thumb-hero">
+      <section id="firstView" class="firstView">
+        <div class="firstView__thumbHero">
           <picture>
             <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri();?>/images/KV-sp.png" />
             <img
@@ -13,8 +13,8 @@
             />
           </picture>
         </div>
-        <!-- /.first-view__thumb-hero -->
-        <div class="first-view__thumb-lotion">
+        <!-- /.firstView__thumb-hero -->
+        <div class="firstView__thumbLotion">
           <img
             src="<?php echo get_template_directory_uri();?>/images/skin-lotion.png"
             alt="化粧品その１"
@@ -23,17 +23,17 @@
             decoding="async"
           />
         </div>
-        <!-- /.first-view__thumb-lotion -->
-        <a class="first-view__link-line" href="https://line.me/ja/">
+        <!-- /.firstView__thumb-lotion -->
+        <a class="firstView__linkLine" href="https://line.me/ja/">
           公式LINEはこちら
         </a>
-        <p class="first-view__text-slogan">
+        <p class="firstView__textSlogan">
           キャッチコピーが入ります<br />キャッチコピーが入ります
         </p>
-        <p class="first-view__text-goods">商品名○○○○</p>
-        <p class="first-view__text-jpy">
-          4,950<span class="first-view__text-unit">円</span
-          ><span class="first-view__text-tax">（税込）</span>
+        <p class="firstView__textGoods">商品名○○○○</p>
+        <p class="firstView__textJpy">
+          4,950<span class="firstView__textUnit">円</span
+          ><span class="firstView__textTax">（税込）</span>
         </p>
       </section>
 
