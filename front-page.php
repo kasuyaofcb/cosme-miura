@@ -303,8 +303,8 @@
       <h2 class="c-heading2">
         ○○の<span class="u-commonTextFontSizeBig">特徴</span>
       </h2>
-      <div class="feature__wrap">
-        <div class="feature__media">
+      <ul class="feature__wrap">
+        <li class="feature__media">
           <div class="feature__thumb">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/skin-lotion3.png"
@@ -320,28 +320,9 @@
             </p>
           </div>
           <!-- /.feature__body -->
-        </div>
+        </li>
         <!-- /.feature__media -->
-        <div class="feature__media">
-          <div class="feature__thumb">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/images/skin-lotion3.png"
-              alt="化粧品の写真"
-              width="65"
-              height="42"
-              decoding="async" />
-          </div>
-          <!-- /.feature__thumb -->
-          <div class="feature__body">
-            <h3 class="level3-heading">テキストテキストテキスト</h3>
-            <p class="feature__text">
-              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            </p>
-          </div>
-          <!-- /.feature__body -->
-        </div>
-        <!-- /.feature__media -->
-        <div class="feature__media">
+        <li class="feature__media">
           <div class="feature__thumb">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/skin-lotion3.png"
@@ -358,9 +339,28 @@
             </p>
           </div>
           <!-- /.feature__body -->
-        </div>
+        </li>
         <!-- /.feature__media -->
-      </div>
+        <li class="feature__media">
+          <div class="feature__thumb">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/images/skin-lotion3.png"
+              alt="化粧品の写真"
+              width="65"
+              height="42"
+              decoding="async" />
+          </div>
+          <!-- /.feature__thumb -->
+          <div class="feature__body">
+            <h3 class="level3-heading">テキストテキストテキスト</h3>
+            <p class="feature__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+          <!-- /.feature__body -->
+        </li>
+        <!-- /.feature__media -->
+      </ul>
       <!-- /.feature__wrap -->
     </div>
     <!-- /.l-commonInner -->
