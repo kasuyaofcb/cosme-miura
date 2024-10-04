@@ -182,3 +182,14 @@ function cosme_comment_count($count)
         return $count;
     }
 }
+
+function my_theme_enqueue_styles() {
+    // リセットCSSの読み込み
+    wp_enqueue_style('reset-css', get_template_directory_uri() . '/css/reset.css');
+
+    // スタイルシートの読み込み
+    wp_enqueue_style('style-css', get_template_directory_uri() . '/css/style.css', array('reset-css'));
+}
+
+// アクションフックでスタイルを読み込む
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
