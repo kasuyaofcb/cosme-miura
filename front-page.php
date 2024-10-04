@@ -39,7 +39,7 @@
 
       <section class="worries">
         <div class="l-commonInner">
-          <h2 class="level2-heading">
+          <h2 class="c-heading2">
             こんな<span class="common__text--fontSize-big">お悩み</span>は<span
               class="common__text--fontSize-big"
               >ございませんか？</span
@@ -256,7 +256,7 @@
 
       <section class="select">
         <div class="l-commonInner">
-          <h2 class="level2-heading">
+          <h2 class="c-heading2">
             ○○が<span class="common__text--fontSize-big">選ばれる</span>理由
           </h2>
           <div class="select__media">
@@ -326,7 +326,7 @@
 
       <section class="feature">
         <div class="l-commonInner">
-          <h2 class="level2-heading">
+          <h2 class="c-heading2">
             ○○の<span class="common__text--fontSize-big">特徴</span>
           </h2>
           <div class="feature__wrap">
@@ -504,7 +504,7 @@
         <div class="l-commonInner">
           <div class="inquiry__wrap">
             <div class="inquiry__title">
-              <h2 class="inquiry__heading level2-heading">お問い合わせ</h2>
+              <h2 class="inquiry__heading c-heading2">お問い合わせ</h2>
             </div>
             <!-- /.inquiry__title -->
 
