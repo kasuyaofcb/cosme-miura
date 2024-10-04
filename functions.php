@@ -183,7 +183,8 @@ function cosme_comment_count($count)
     }
 }
 
-function my_theme_enqueue_styles() {
+function my_theme_enqueue_styles()
+{
     // リセットCSSの読み込み
     wp_enqueue_style('reset-css', get_template_directory_uri() . '/css/reset.css');
 
@@ -193,3 +194,12 @@ function my_theme_enqueue_styles() {
 
 // アクションフックでスタイルを読み込む
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+
+function my_theme_enqueue_scripts()
+{
+    // JavaScriptファイルの読み込み
+    wp_enqueue_script('script-js', get_template_directory_uri() . '/javascript/script.js', array(), null, true);
+}
+
+// アクションフックでスクリプトを読み込む
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');

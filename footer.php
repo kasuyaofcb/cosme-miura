@@ -35,7 +35,6 @@
       <!-- /.footer__inner-->
       <p class="copyright">○○○ All Right Reserved.</p>
     </footer>
-    <script src="<?php echo get_template_directory_uri(); ?>/javascript/script.js"></script>
     <?php wp_footer(); ?>
   </body>
 </html>
