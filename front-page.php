@@ -40,8 +40,8 @@
       <section class="worries">
         <div class="l-commonInner">
           <h2 class="c-heading2">
-            こんな<span class="common__text--fontSize-big">お悩み</span>は<span
-              class="common__text--fontSize-big"
+            こんな<span class="u-commonTextFontSizeBig">お悩み</span>は<span
+              class="u-commonTextFontSizeBig"
               >ございませんか？</span
             >
           </h2>
@@ -257,7 +257,7 @@
       <section class="select">
         <div class="l-commonInner">
           <h2 class="c-heading2">
-            ○○が<span class="common__text--fontSize-big">選ばれる</span>理由
+            ○○が<span class="u-commonTextFontSizeBig">選ばれる</span>理由
           </h2>
           <div class="select__media">
             <div class="select__thumb-wrap">
@@ -327,7 +327,7 @@
       <section class="feature">
         <div class="l-commonInner">
           <h2 class="c-heading2">
-            ○○の<span class="common__text--fontSize-big">特徴</span>
+            ○○の<span class="u-commonTextFontSizeBig">特徴</span>
           </h2>
           <div class="feature__wrap">
             <div class="feature__media">
