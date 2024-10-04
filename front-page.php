@@ -84,7 +84,7 @@
               <!-- /.worries__thumb-->
             </div>
             <!-- /.worries__box -->
-            <div class="empty"></div>
+            <div class="worries__empty"></div>
             <!-- /.empty -->
             <div class="worries__box">
               <div class="worries__thumb">
