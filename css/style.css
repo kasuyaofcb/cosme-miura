@@ -300,12 +300,12 @@ img {
   background: var(--background-white);
 }
 
-/* first-view */
-.first-view {
+/* firstView */
+.firstView {
   position: relative;
 }
 
-.first-view__thumb-lotion {
+.firstView__thumbLotion {
   position: absolute;
   top: 35%;
   left: 45%;
@@ -313,7 +313,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .first-view__thumb-lotion {
+  .firstView__thumbLotion {
     top: auto;
     bottom: 10vw;
     left: 3vw;
@@ -329,7 +329,7 @@ img {
   }
 }
 
-.first-view__link-line {
+.firstView__linkLine {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -346,12 +346,8 @@ img {
   background: linear-gradient(to left, #ff758e 70%, #ffa0b0 100%);
 }
 
-.first-view__link-line:hover {
-  animation: exampleAnimation 0.3s forwards ease;
-}
-
 @media screen and (max-width: 767px) {
-  .first-view__link-line {
+  .firstView__linkLine {
     position: absolute;
     top: auto;
     bottom: 1%;
@@ -367,7 +363,11 @@ img {
   }
 }
 
-.first-view__text-slogan {
+.firstView__linkLine:hover {
+  animation: exampleAnimation 0.3s forwards ease;
+}
+
+.firstView__textSlogan {
   position: absolute;
   top: 15%;
   left: 48%;
@@ -376,7 +376,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .first-view__text-slogan {
+  .firstView__textSlogan {
     top: 15%;
     left: auto;
     right: 8%;
@@ -386,7 +386,7 @@ img {
   }
 }
 
-.first-view__text-goods {
+.firstView__textGoods {
   position: absolute;
   top: 45%;
   left: 58%;
@@ -396,7 +396,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .first-view__text-goods {
+  .firstView__textGoods {
     top: auto;
     bottom: 19%;
     left: 35%;
@@ -405,7 +405,7 @@ img {
   }
 }
 
-.first-view__text-jpy {
+.firstView__textJpy {
   position: absolute;
   top: 57%;
   left: 59%;
@@ -418,7 +418,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .first-view__text-jpy {
+  .firstView__textJpy {
     top: auto;
     left: 35%;
     right: auto;
@@ -427,12 +427,12 @@ img {
   }
 }
 
-.first-view__text-unit {
+.firstView__textUnit {
   font-size: 4vw;
   padding-left: 0.35vw;
 }
 
-.first-view__text-tax {
+.firstView__textTax {
   font-size: 1.5vw;
   font-weight: var(--font-weight-SemiBold);
 }

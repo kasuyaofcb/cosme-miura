@@ -85,7 +85,7 @@
           <span class="header__hamburgerLine"></span>
           <span class="header__hamburgerLine"></span>
         </div>
-        <!-- /.header__hamburger_box -->
+        <!-- /.header__hamburgerBox -->
       </div>
       <!-- /.header__inner -->
     </header>
