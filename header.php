@@ -43,20 +43,20 @@
         </h1>
 
         <nav>
-          <ul class="header__nav">
-            <li class="header__navItem">
-              <a class="header__navLink" href="#">TOP</a>
+          <ul class="header__listMenu">
+            <li class="header__listItem">
+              <a class="header__listLink" href="#">TOP</a>
             </li>
-            <li class="header__navItem">
+            <li class="header__listItem">
               <a
-                class="header__navLink"
+                class="header__listLink"
                 href="https://line.me/ja/"
                 target="_blank"
                 >公式LINE</a
               >
             </li>
-            <li class="header__navItem">
-              <a class="header__navLink" href="#" >会社概要</a>
+            <li class="header__listItem">
+              <a class="header__listLink" href="#" >会社概要</a>
             </li>
           </ul>
         </nav>
