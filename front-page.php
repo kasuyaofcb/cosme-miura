@@ -56,7 +56,7 @@
             </picture>
           </div>
           <!-- /.worries__thumb-->
-          <p class="worries__text-voice">
+          <p class="worries__textVoice">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
           <div class="worries__thumb">
@@ -75,8 +75,8 @@
           <!-- /.worries__thumb-->
         </div>
         <!-- /.worries__box -->
-        <div class="worriesempty"></div>
-        <!-- /.empty -->
+        <div class="worries__empty"></div>
+        <!-- /.worries__empty -->
         <div class="worries__box">
           <div class="worries__thumb">
             <picture>
@@ -92,7 +92,7 @@
             </picture>
           </div>
           <!-- /.worries__thumb"-->
-          <p class="worries__text-voice">
+          <p class="worries__textVoice">
             テキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキスト
           </p>
@@ -112,8 +112,8 @@
           <!-- /.worries__thumb"-->
         </div>
         <!-- /.worries__box -->
-        <div class="empty"></div>
-        <!-- /.empty -->
+        <div class="worries__empty"></div>
+        <!-- /.worries__empty -->
         <div class="worries__box">
           <div class="worries__thumb">
             <picture>
@@ -129,7 +129,7 @@
             </picture>
           </div>
           <!-- /.worries__thumb -->
-          <p class="worries__text-voice">
+          <p class="worries__textVoice">
             テキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
@@ -149,8 +149,8 @@
           <!-- /.worries__thumb -->
         </div>
         <!-- /.worries__box -->
-        <div class="empty"></div>
-        <!-- /.empty -->
+        <div class="worries__empty"></div>
+        <!-- /.worries__empty -->
         <div class="worries__box">
           <div class="worries__thumb">
             <picture>
@@ -166,7 +166,7 @@
             </picture>
           </div>
           <!-- /.worries__thumb -->
-          <p class="worries__text-voice">
+          <p class="worries__textVoice">
             テキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキスト
@@ -187,8 +187,8 @@
           <!-- /.worries__thumb -->
         </div>
         <!-- /.worries__box -->
-        <div class="empty"></div>
-        <!-- /.empty -->
+        <div class="worries__empty"></div>
+        <!-- /.worries__empty -->
         <div class="worries__box">
           <div class="worries__thumb">
             <picture>
@@ -204,7 +204,7 @@
             </picture>
           </div>
           <!-- /.worries__thumb -->
-          <p class="worries__text-voice">
+          <p class="worries__textVoice">
             テキストテキストテキストテキストテキストテキスト
           </p>
           <div class="worries__thumb">
@@ -235,8 +235,8 @@
         ○○が<span class="u-commonTextFontSizeBig">選ばれる</span>理由
       </h2>
       <div class="select__media">
-        <div class="select__thumb-wrap">
-          <div class="select__thumb-lotion">
+        <div class="select__wrapLotion">
+          <div class="select__thumbLotion">
             <img
               src="<?php echo get_template_directory_uri(); ?>/images/skin-lotion2.png"
               alt="化粧品その２"
@@ -244,14 +244,14 @@
               height="802"
               decoding="async" />
           </div>
-          <!-- /.select__thumb-lotion -->
+          <!-- /.select__thumbLotion -->
         </div>
-        <!-- /.select__thumb-wrap -->
+        <!-- /.select__wrapLotion -->
         <div class="select__body">
-          <div class="select__wrap">
+          <div class="select__container">
             <h3 class="select__counter"></h3>
             <div class="select__box">
-              <h3 class="select__heading level4-heading">
+              <h3 class="select__heading c-heading4">
                 テキストテキストテキスト
               </h3>
               <p class="select__text">
@@ -261,11 +261,11 @@
             </div>
             <!-- /.select__box -->
           </div>
-          <!-- /.select__wrap -->
-          <div class="select__wrap">
+          <!-- /.select__container -->
+          <div class="select__container">
             <h3 class="select__counter"></h3>
             <div class="select__box">
-              <h3 class="select__heading level4-heading">
+              <h3 class="select__heading c-heading4">
                 テキストテキストテキスト
               </h3>
               <p class="select__text">
@@ -276,10 +276,10 @@
             <!-- /.select__box -->
           </div>
           <!-- /.elect__wrap -->
-          <div class="select__wrap">
+          <div class="select__container">
             <h3 class="select__counter"></h3>
             <div class="select__box">
-              <h3 class="select__heading level4-heading">
+              <h3 class="select__heading c-heading4">
                 テキストテキストテキスト
               </h3>
               <p class="select__text">
@@ -289,7 +289,7 @@
             </div>
             <!-- /.select__box -->
           </div>
-          <!-- /.select__wrap -->
+          <!-- /.select__container -->
         </div>
         <!-- /.select__body -->
       </div>
@@ -314,7 +314,7 @@
               decoding="async" />
           </div>
           <div class="feature__body">
-            <h3 class="level3-heading">テキストテキストテキスト</h3>
+            <h3 class="c-heading3">テキストテキストテキスト</h3>
             <p class="feature__text">
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
@@ -333,7 +333,7 @@
           </div>
           <!-- /.feature__thumb -->
           <div class="feature__body">
-            <h3 class="level3-heading">テキストテキストテキスト</h3>
+            <h3 class="c-heading3">テキストテキストテキスト</h3>
             <p class="feature__text">
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
@@ -352,7 +352,7 @@
           </div>
           <!-- /.feature__thumb -->
           <div class="feature__body">
-            <h3 class="level3-heading">テキストテキストテキスト</h3>
+            <h3 class="c-heading3">テキストテキストテキスト</h3>
             <p class="feature__text">
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
@@ -378,20 +378,19 @@
             decoding="async" />
         </div>
         <div class="application__body">
-          <p class="application__text-effect">
+          <p class="application__textEffect">
             美白成分が配合されており、日々のスキンケアで肌の透明感を引き出します。メラニンの生成を抑え、シミやそばかすの原因にアプローチ。保湿成分もたっぷり含まれているため、しっとりとした使い心地で、乾燥からも肌を守ります。毎日のケアに取り入れることで、明るく均一な肌トーンを目指し、シミの目立たない美しい肌へ導きます。
           </p>
-          <p class="application__text-stain">あなたのシミにアプローチ</p>
-          <p class="application__text-product">商品名○○○○</p>
-          <div class="application__pentagon-shadow">
+          <p class="application__textStain">あなたのシミにアプローチ</p>
+          <p class="application__textProduct">商品名○○○○</p>
+          <div class="application__pentagonShadow">
             <div class="application__pentagon"></div>
             <!-- /.application__pentagon -->
           </div>
-          <!-- /.application__pentagon-shadow -->
-          <p class="application__text-jpy">
-            4,950<span class="application__text-unit">円（税込）</span>
+          <!-- /.application__pentagonShadow -->
+          <p class="application__textJpy">
+            4,950<span class="application__textUnit">円（税込）</span>
           </p>
-          <!-- <div class="application__wrap-btn"> -->
           <button
             id="button"
             class="application__btn"
@@ -428,7 +427,7 @@
         </div>
         <!-- /.voice__thumb -->
         <div class="voice__body">
-          <h3 class="voice__title level3-heading">
+          <h3 class="voice__title c-heading3">
             テキストテキストテキストテキストテキスト
           </h3>
           <p class="voice__text-sentence">
@@ -453,7 +452,7 @@
         <!-- /.voice__thumb -->
 
         <div class="voice__body">
-          <h3 class="voice__title level3-heading">
+          <h3 class="voice__title c-heading3">
             テキストテキストテキストテキストテキスト
           </h3>
           <p class="voice__text-sentence">
