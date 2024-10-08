@@ -1287,3 +1287,27 @@ input[type="checkbox"]:checked:before {
   color: var(--color-white);
   text-align: center;
 }
+
+/*404.php -----------------------------------------*/
+.page404__container {
+  padding-top: 280px;
+  padding-bottom: 280px;
+  text-align: center;
+}
+
+.page404__title {
+  font-size: var(--font-size-extraMedium);
+}
+
+.page404__text {
+  font-size: var(--font-size-extraThin);
+}
+
+.page404__link {
+  display: block;
+  padding-top: 40px;
+  color: #1a73e8;
+  color: var(--background-blue);
+  text-decoration: underline solid 1px;
+  text-underline-offset: 0.15em;
+}
