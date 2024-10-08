@@ -893,7 +893,7 @@ img {
   --background-deepGreen: rgba(34, 139, 18, 1);
 }
 
-.application__arrow-shadow {
+.application__arrowShadow {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
   content: "";
   position: absolute;
@@ -967,7 +967,7 @@ img {
   }
 }
 
-.voice__text-profile {
+.voice__textProfile {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -982,7 +982,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .voice__text-profile {
+  .voice__textProfile {
     left: 50%;
     transform: translateX(-50%);
     bottom: 4%;
@@ -1017,7 +1017,7 @@ img {
   }
 }
 
-.voice__text-sentence {
+.voice__textSentence {
   padding-top: 2vw;
 }
 
@@ -1221,31 +1221,31 @@ input[type="checkbox"]:checked:before {
   }
 }
 
-.footer__title-logo {
+.footer__titleLogo {
   width: max(5vw, 34px);
 }
 
-.footer-nav {
+.footer__listMenu {
   display: flex;
 }
 
-.footer-nav__item {
+.footer__listItem {
   padding-right: 2vw;
   color: var(--color-white);
 }
 
-.footer-nav__item:last-child {
+.footer__listItem:last-child {
   padding-right: 0;
 }
 
-.footer-nav__link {
+.footer__listLink {
   font-weight: var(--font-weight-Medium);
   transition: all 0.3s;
 
   position: relative;
 }
 
-.footer-nav__link::before {
+.footer__listLink::before {
   position: absolute;
   bottom: -4px;
   left: 50%;
@@ -1258,12 +1258,12 @@ input[type="checkbox"]:checked:before {
   transition: all 0.3s;
 }
 
-.footer-nav__link:hover::before {
+.footer__listLink:hover::before {
   transform: scale(-1, 1);
   width: 50%;
 }
 
-.footer-nav__link::after {
+.footer__listLink::after {
   position: absolute;
   bottom: -4px;
   left: 50%;
@@ -1276,7 +1276,7 @@ input[type="checkbox"]:checked:before {
   transition: all 0.3s;
 }
 
-.footer-nav__link:hover::after {
+.footer__listLink:hover::after {
   transform: scale(1, 1);
   width: 50%;
 }

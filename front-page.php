@@ -398,11 +398,11 @@
             name="now"
             value="now">
             今すぐ申し込む
-            <div class="application__arrow-shadow">
+            <div class="application__arrowShadow">
               <div class="application__arrow"></div>
               <!-- /.application__arrow -->
             </div>
-            <!-- /.application__arrow-shadow -->
+            <!-- /.application__arrowShadow -->
           </button>
         </div>
         <!-- /.application__body -->
@@ -421,7 +421,7 @@
             width="402"
             height="368"
             decoding="async" />
-          <p class="voice__text-profile">
+          <p class="voice__textProfile">
             Y・Aさん　30代<span>・東京都</span>
           </p>
         </div>
@@ -430,7 +430,7 @@
           <h3 class="voice__title c-heading3">
             テキストテキストテキストテキストテキスト
           </h3>
-          <p class="voice__text-sentence">
+          <p class="voice__textSentence">
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
         </div>
@@ -445,7 +445,7 @@
             width="402"
             height="368"
             decoding="async" />
-          <p class="voice__text-profile">
+          <p class="voice__textProfile">
             Y・Aさん　30代<span>・東京都</span>
           </p>
         </div>
@@ -455,7 +455,7 @@
           <h3 class="voice__title c-heading3">
             テキストテキストテキストテキストテキスト
           </h3>
-          <p class="voice__text-sentence">
+          <p class="voice__textSentence">
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
           </p>
         </div>
