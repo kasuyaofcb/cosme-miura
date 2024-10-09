@@ -23,9 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/reset.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css" />
-    <title>cosme</title>
+
   <?php wp_head(); ?>
   </head>
 
@@ -45,49 +43,49 @@
         </h1>
 
         <nav>
-          <ul class="header-nav">
-            <li class="header-nav__item">
-              <a class="header-nav__link" href="#">TOP</a>
+          <ul class="header__listMenu">
+            <li class="header__listItem">
+              <a class="header__listLink" href="#">TOP</a>
             </li>
-            <li class="header-nav__item">
+            <li class="header__listItem">
               <a
-                class="header-nav__link"
+                class="header__listLink"
                 href="https://line.me/ja/"
                 target="_blank"
                 >公式LINE</a
               >
             </li>
-            <li class="header-nav__item">
-              <a class="header-nav__link" href="#" >会社概要</a>
+            <li class="header__listItem">
+              <a class="header__listLink" href="#" >会社概要</a>
             </li>
           </ul>
         </nav>
         <!-- ハンバーガーメニュー -->
-        <nav class="bl_hamburger_nav">
-          <ul class="bl_hamburger_menu">
-            <li class="bl_hamburger_item">
-              <a class="bl_hamburger_link" href="#">TOP</a>
+        <nav class="header__hamburgerNav">
+          <ul class="header__hamburgerMenu">
+            <li class="header__hamburgerItem">
+              <a class="header__hamburgerLink" href="#">TOP</a>
             </li>
-            <li class="bl_hamburger_item">
+            <li class="header__hamburgerItem">
               <a
                 href="https://line.me/ja/"
-                class="bl_hamburger_link"
+                class="header__hamburgerLink"
                 target="_blank"
                 >公式LINE</a
               >
             </li>
-            <li class="bl_hamburger_item">
-              <a class="bl_hamburger_link" href="#">会社概要</a>
+            <li class="header__hamburgerItem">
+              <a class="header__hamburgerLink" href="#">会社概要</a>
             </li>
           </ul>
         </nav>
 
-        <div class="bl_hamburger_box">
-          <span class="bl_hamburger_line"></span>
-          <span class="bl_hamburger_line"></span>
-          <span class="bl_hamburger_line"></span>
+        <div class="header__hamburgerBox">
+          <span class="header__hamburgerLine"></span>
+          <span class="header__hamburgerLine"></span>
+          <span class="header__hamburgerLine"></span>
         </div>
-        <!-- /.bl_hamburger_box -->
+        <!-- /.header__hamburgerBox -->
       </div>
       <!-- /.header__inner -->
     </header>

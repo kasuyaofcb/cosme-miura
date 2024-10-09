@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ハンバーガ―メニュー
-const hamburgerNav = document.querySelector(".bl_hamburger_nav");
-const hamburgerBox = document.querySelector(".bl_hamburger_box");
-const hamburgerMenu = document.querySelector(".bl_hamburger_menu");
-const hamburgerItem = document.querySelectorAll(".bl_hamburger_item");
+const hamburgerNav = document.querySelector(".header__hamburgerNav");
+const hamburgerMenu = document.querySelector(".header__hamburgerMenu");
+const hamburgerItem = document.querySelectorAll(".header__hamburgerItem");
+const hamburgerBox = document.querySelector(".header__hamburgerBox");
 
 hamburgerBox.addEventListener("click", function () {
   hamburgerNav.classList.toggle("active");

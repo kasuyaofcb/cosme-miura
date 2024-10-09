@@ -1,11 +1,9 @@
 <?php get_header(); ?>
-<article id="post-0" class="post not-found">
-<header class="header">
-<h1 class="entry-title" itemprop="name"><?php esc_html_e( 'Not Found', 'cosme' ); ?></h1>
-</header>
-<div class="entry-content" itemprop="mainContentOfPage">
-<p><?php esc_html_e( 'Nothing found for the requested page. Try a search instead?', 'cosme' ); ?></p>
-<?php get_search_form(); ?>
+<main>
+<div class="page404__container">
+  <h1 class="page404__title">404 Not Found</h1>
+  <p class="page404__text">お探しのページは移動したか削除されています。</p>
+  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="page404__link">トップに戻る</a>
 </div>
-</article>
+</main>
 <?php get_footer(); ?>
